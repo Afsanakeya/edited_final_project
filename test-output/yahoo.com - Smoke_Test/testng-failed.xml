@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [yahoo.com - Smoke_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="ch"/>
+  <test parallel="none" name="Running Smoke suite in chrome(failed)">
+    <parameter name="browser" value="ch"/>
+    <classes>
+      <class name="Test_Cases.Successfully_sent_mail_test$Sign_in_test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeEachTestMethod"/>
+          <include name="Sucessfully_sent_mail_Test"/>
+          <include name="afterEachTestMethod"/>
+          <include name="startTestSuite"/>
+        </methods>
+      </class> <!-- Test_Cases.Successfully_sent_mail_test$Sign_in_test -->
+      <class name="Test_Cases.Successfully_delete_mail$Sign_in_test">
+        <methods>
+          <include name="Sucessfully_delete_mail_Test"/>
+          <include name="beforeEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- Test_Cases.Successfully_delete_mail$Sign_in_test -->
+    </classes>
+  </test> <!-- Running Smoke suite in chrome(failed) -->
+</suite> <!-- Failed suite [yahoo.com - Smoke_Test] -->

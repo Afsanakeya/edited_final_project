@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-28T07:24:04Z" name="Default suite" finished-at="2020-09-28T07:24:04Z" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2020-09-28T07:24:04Z" name="Default test" finished-at="2020-09-28T07:24:04Z" duration-ms="45">
+      <class name="Test_Cases.Successfully_sent_mail_test$Sign_in_test">
+        <test-method is-config="true" signature="startTestSuite()[pri:0, instance:Test_Cases.Successfully_sent_mail_test$Sign_in_test@ea6147e]" started-at="2020-09-28T03:24:04Z" name="startTestSuite" finished-at="2020-09-28T03:24:04Z" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestSuite -->
+        <test-method is-config="true" signature="beforeEachTestMethod(java.lang.String)[pri:0, instance:Test_Cases.Successfully_sent_mail_test$Sign_in_test@ea6147e]" started-at="2020-09-28T03:24:04Z" name="beforeEachTestMethod" finished-at="2020-09-28T03:24:04Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method beforeEachTestMethod but has not been marked @Optional or defined
+in /private/var/folders/y0/36yf7db945g6t2bk2_4ydw7r0000gn/T/testng-eclipse-1713207420/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method beforeEachTestMethod but has not been marked @Optional or defined
+in /private/var/folders/y0/36yf7db945g6t2bk2_4ydw7r0000gn/T/testng-eclipse-1713207420/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestMethod -->
+        <test-method signature="Sucessfully_sent_mail_Test()[pri:0, instance:Test_Cases.Successfully_sent_mail_test$Sign_in_test@ea6147e]" started-at="2020-09-28T03:24:04Z" name="Sucessfully_sent_mail_Test" finished-at="2020-09-28T03:24:04Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sucessfully_sent_mail_Test -->
+        <test-method is-config="true" signature="afterEachTestMethod()[pri:0, instance:Test_Cases.Successfully_sent_mail_test$Sign_in_test@ea6147e]" started-at="2020-09-28T03:24:04Z" name="afterEachTestMethod" finished-at="2020-09-28T03:24:04Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Cases.Successfully_sent_mail_test$Sign_in_test@ea6147e]" started-at="2020-09-28T03:24:04Z" name="tearDown" finished-at="2020-09-28T03:24:04Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Cases.Successfully_sent_mail_test$Sign_in_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
